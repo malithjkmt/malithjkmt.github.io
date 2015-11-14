@@ -34,6 +34,15 @@
     font-size:17px;
     line-height:20px;
 }
+.mal h2{
+    font-size: 20px;
+    color:#FFFFFF;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top:0px;
+
+}
+
 a {
     color:#181A1C;
     text-decoration: none;

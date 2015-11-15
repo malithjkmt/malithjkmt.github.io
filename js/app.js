@@ -373,12 +373,12 @@ $("#send-mail").click(function () {
     });
 });
 
-//Initialize google map for contact setion with your location.
+//Initialize google map for contact section with your location.
 
 function initializeMap() {
 
-    var lat = '44.8164056'; //Set your latitude.
-    var lon = '20.46090424'; //Set your longitude.
+    var lat = '6.796770'; //Set your latitude.
+    var lon = '79.900190'; //Set your longitude.
 
     var centerLon = lon - 0.0105;
 

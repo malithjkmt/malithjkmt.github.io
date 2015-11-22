@@ -14,7 +14,11 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Count down clock -->
+    <link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css" />
     <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/clockstyle.css" />
+
     <link rel="stylesheet" type="text/css" href="css/pluton.css" />
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
@@ -38,6 +42,10 @@
                 <img src="images/logo.png" width="120" height="40" alt="Logo" />
                 <!-- This is website logo -->
             </a>
+            <div class = "clock">
+                <div class="clock-builder-output" ></div>
+            </div>
+
             <!-- Navigation button, visible on small resolution -->
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <i class="icon-menu"></i>
@@ -45,11 +53,11 @@
             <!-- Main navigation -->
             <div class="nav-collapse collapse pull-right">
                 <ul class="nav" id="top-navigation">
-                    <li><a href="http://malithjkmt.github.io/#home">Home</a></li>
-                    <li class="active"><a href="http://malithjkmt.github.io/#service">Story</a></li>
-                    <li><a href="http://malithjkmt.github.io/#portfolio">Gallery</a></li>
-                    <li><a href="http://malithjkmt.github.io/#about">Team Viperz</a></li>
-                    <li><a href="http://malithjkmt.github.io/#contact">Contact</a></li>
+                    <li><a href="http://tankfury.tk/#home">Home</a></li>
+                    <li class="active"><a href="http://tankfury.tk/#service">Story</a></li>
+                    <li><a href="http://tankfury.tk/#portfolio">Gallery</a></li>
+                    <li><a href="http://tankfury.tk/#about">Team Viperz</a></li>
+                    <li><a href="http://tankfury.tk/#contact">Contact</a></li>
                 </ul>
             </div>
             <!-- End main navigation -->
@@ -140,7 +148,7 @@
             <div class="span4">
                 <div class="centered service">
                     <div class="circle-border zoom-in">
-                        <a href="http://malithjkmt.github.io/pcll.html" target=" _blank"> <img class="img-circle" src="images/Service1.png" alt="service 1"></a>
+                        <a href="http://tankfury.tk/pcll.html" target=" _blank"> <img class="img-circle" src="images/Service1.png" alt="service 1"></a>
                     </div>
                     <h3>PC ll module</h3>
                     <p align="center">Module Code: CS 2212<br>
@@ -151,7 +159,7 @@
             <div class="span4">
                 <div class="centered service">
                     <div class="circle-border zoom-in">
-                        <a href="http://malithjkmt.github.io/HowToPlay.html" target=" _blank"> <img class="img-circle" src="images/Service2.png" alt="service 2" /></a>
+                        <a href="http://tankfury.tk/HowToPlay.html" target=" _blank"> <img class="img-circle" src="images/Service2.png" alt="service 2" /></a>
                     </div>
                     <h3>How to Play</h3>
                     <p>"If you know the enemy<br>and know yourself, you need not fear" </p> <p style="text-indent: 5em;">― Sun Tzu</p>
@@ -160,7 +168,7 @@
             <div class="span4">
                 <div class="centered service">
                     <div class="circle-border zoom-in">
-                        <a href="http://malithjkmt.github.io/GameImplementation.html" target=" _blank"> <img class="img-circle" src="images/Service3.png" alt="service 3"></a>
+                        <a href="http://tankfury.tk/GameImplementation.html" target=" _blank"> <img class="img-circle" src="images/Service3.png" alt="service 3"></a>
                     </div>
                     <h3>Game Implementation</h3>
                     <p>Server - Client game architecture & <br>Network layer </p>
@@ -208,6 +216,12 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 <script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="clock_assets/flipclock.js"></script>
+<script type="text/javascript" src="clock_assets/clock.js"></script>
+
+<script type="text/javascript">displayClock() </script>
+
 
 </body>
 </html>

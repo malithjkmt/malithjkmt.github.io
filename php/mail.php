@@ -12,10 +12,10 @@ if (!empty($_POST)){
   $emailTo ="malit.tilak@gmail.com"; //"yourmail@yoursite.com";
 
   //from email adress
-  $emailFrom ="contact@yoursite.com"; //"contact@yoursite.com";
+  $emailFrom ="mail@tankfury.tk"; //"contact@yoursite.com";
 
   //email subject
-  $emailSubject = "Mail from Tank Fury Web";
+  $emailSubject = "Tank Fury New Mail";
 
   $name = $_POST["name"];
   $email = $_POST["email"];

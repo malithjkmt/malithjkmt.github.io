@@ -90,9 +90,10 @@
 }
 .da-slide h2 {
     font-size: 95px;
+    line-height: 110px;
     font-family: fury;
     width: 50%;
-    top: 180px;
+    top: 160px;
     font-weight:bold;
 }
 
@@ -1276,8 +1277,9 @@
 
 @media (max-width: 979px) {
     .da-slide h2 {
-        font-size: 28px;
-         top:40px;
+        font-size: 60px;
+        line-height: 80px;
+         top:90px;
     }
     
      .da-slide h4 {
@@ -1289,7 +1291,7 @@
         font-size: 14px;
         line-height:16px;
         
-        top:120px;
+        top:20px;
     }
     
     .da-slide .da-img {
@@ -1304,8 +1306,9 @@
 
 @media (max-width: 767px) {
     .da-slide h2 {
-        font-size: 20px;
-        top:40px;
+        font-size: 50px;
+        line-height: 70px;
+        top:50px;
     }
     
      .da-slide h4 {
@@ -1329,8 +1332,9 @@
 
 @media (max-width: 480px) {
     .da-slide h2 {
-        font-size: 16px;
-        top:30px;
+        font-size: 40px;
+        line-height: 60px;
+        top:60px;
     }
     .da-slide h4{
         font-size: 14px;
